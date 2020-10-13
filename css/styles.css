@@ -1,0 +1,113 @@
+:root {
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+body {
+	max-width: 1500px;
+	min-width: 500px;
+	height: 850px;
+	background: #b07cf7;
+}
+.contanier {
+	max-width: 1170px;
+	min-width: 400px;
+	height: 100%;
+	display: flex;
+	position: relative;
+}
+.image {
+	position: relative;
+	width: 370px;
+	height: 310px;
+	margin: 0 auto;
+	margin-left: 70px;
+}
+.data	{
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid;
+	padding: 1px;
+	border-radius: 10px;
+	top: 30px;
+	left: 31px;
+	background: rgba(0, 0, 0, .40);
+	color: #fff;
+}
+.nov {
+	font-size: 21px;
+}
+.text__image {
+	position: absolute;
+	top: 200px;
+	left: 20px;
+	width: 100%;
+	font-size: 20px;
+	color: #ffffff;
+}
+.text__post {
+	position: relative;
+	bottom: 25px;
+	left: 20px;
+	font-size: 13px;
+	color: #fff;
+	padding-bottom: 100px;
+}
+.blog {
+	color: #fff;
+	padding-top: 95px;
+	text-align: center;
+	font-size: 90px;
+	margin-bottom: 35px;
+}
+.text {
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 40px;
+}
+.more {
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding-left: 30px;
+	color: #fff;
+	font-size: 20px;
+	width: 200px;
+	height: 55px;
+	background: #f72b3b;
+}
+.view {
+	padding-top: 25px;
+	margin-right: 40px;
+}
